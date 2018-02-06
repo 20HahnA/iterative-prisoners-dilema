@@ -67,6 +67,7 @@ if __name__ == '__main__':
               their_score=0,
               result='b')
  
+#Code1
 def move(my_history, their_history, my_score, their_score):
     return 'c'            
     if len(my_history) == 0:
@@ -76,10 +77,19 @@ def move(my_history, their_history, my_score, their_score):
     else:
         return 'c'
         
-#test 1
+#test3-code1
 
-    if test_move(my_history=' ', 
-                their_history=' ', 
-                my_score=0,
-                result='c'):
-        print 'Test passed'
+if test_move(my_history='c', 
+            their_history='c', 
+            my_score=0,
+            their_score=0,
+            result='c'):
+    print 'Test3 passed'
+        
+#test4-code1
+if test_move(my_history='c', 
+            their_history='b', 
+            my_score=0,
+            their_score=0,
+            result='b'):
+    print 'Test4 passed'
