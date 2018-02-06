@@ -65,8 +65,4 @@ if __name__ == '__main__':
               # move('bbb', 'ccc', 0, 0) returns 'b'.
               my_score=0, 
               their_score=0,
-              result='b')             
-              
-              
-    if thier_history[-1] == 'c':
-        return 'b'
+              result='b')
