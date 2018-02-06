@@ -75,3 +75,11 @@ def move(my_history, their_history, my_score, their_score):
         return'b'
     else:
         return 'c'
+        
+#test 1
+
+    if test_move(my_history=' ', 
+                their_history=' ', 
+                my_score=0,
+                result='c'):
+        print 'Test passed'
