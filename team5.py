@@ -87,6 +87,7 @@ if test_move(my_history='c',
     print 'Test3 passed'
         
 #test4-code1
+
 if test_move(my_history='c', 
             their_history='b', 
             my_score=0,
