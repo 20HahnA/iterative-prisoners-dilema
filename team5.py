@@ -122,7 +122,7 @@ def move2(my_history, their_history, my_score, their_score):
     else:
         return 'b'
         
-#test-code0
+#test0-code2
 if test_move(my_history='b',
               their_history='c',        
               my_score=0, 

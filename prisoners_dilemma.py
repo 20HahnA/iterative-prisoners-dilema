@@ -50,6 +50,18 @@ for module in modules:
     for required_variable in ['team_name', 'strategy_name', 'strategy_description']:
         if not hasattr(module, required_variable):
             setattr(module, required_variable, 'missing assignment')
+#code-team5
+team_name = 'Team5'
+strategy_name = 'Conclude unelse betrayed'
+strategy_description = 'conclude else you are betrayed, if betrayed then betray next round'
+def move1(my_history, their_history, my_score, their_score):
+    return 'c'            
+    if len(my_history) == 0:
+        return 'c'
+    elif my_history[-1]=='c' and their_history[-1]== 'b':
+        return'b'
+    else:
+        return 'c'
 
 def main_play(modules):
     '''main_play plays a tournament and outputs results to screen and file.
@@ -380,3 +392,5 @@ def post_to_file(string, filename='tournament.txt', directory=''):
 if __name__ == '__main__':
     scores, moves, reports = main_play(modules[0:4])   
     section0, section1, section2, section3 = reports
+    
+    
